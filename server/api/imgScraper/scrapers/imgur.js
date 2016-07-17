@@ -21,7 +21,7 @@ exports.list = function(url, cb) {
             console.log($img + ' pin url');
 
             var pin = {
-                img: $img,
+                img: "http:" + $img,
                 url: $url,
                 desc: $desc
             }

@@ -21,11 +21,11 @@ var LookSchema = new Schema({
 		type: Date,
 		"default": Date.now
 	},
-	views {
+	views: {
 		type: Number,
 		"default": 0
 	},
-	upVotes {
+	upVotes: {
 		type: Number,
 		"default": 0
 	}
